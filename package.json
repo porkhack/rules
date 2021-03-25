@@ -1,0 +1,11 @@
+{
+  "name": "@pork/rules",
+  "version": "1.0.0",
+  "description": "Ainz rules for porkhack",
+  "author": "Alex Layton <alex@layton.in>",
+  "license": "MIT",
+  "dependencies": {
+    "@pork/trees": "^1.0.5",
+    "object-assign-deep": "^0.4.0"
+  }
+}
