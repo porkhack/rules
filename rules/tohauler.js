@@ -6,6 +6,8 @@ module.exports = ({ haulerid }) => ({
   type: "reindex",
   list: "/bookmarks/trellisfw/asns",
   tree,
+  // Make versioned link since tree PUT is glitchy
+  versioned: true,
   itemsPath: "$.day-index.*.*",
   schema: {
     description: `Matches a porkhack ASN for hauler with internal id "${haulerid}"`,
